@@ -1,196 +1,123 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Karachi | Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<table border="1" width="100%" cellspacing="0" cellpadding="15">
+    <header class="header">
+        <div class="logo">
+            <h2>UOK</h2>
+            <p>University of Karachi</p>
+        </div>
 
-    <!-- HEADER -->
-    <tr>
-        <td>
-            <h3>My Portfolio</h3>
-        </td>
+        <nav>
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="academics.html">Academics</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+            
+        </nav>
+    </header>
 
-        <td align="right">
-            <a href="#">Home</a> |
-            <a href="#">Projects</a> |
-            <a href="#">About</a> |
-            <a href="#">Contact</a>
-        </td>
-    </tr>
-
-    <!-- INTRODUCTION -->
-    <tr>
-        <td colspan="2" align="center" height="250">
-            <h1>Frontend Developer</h1>
-            <p>Welcome to my personal portfolio</p>
-        </td>
-    </tr>
-
-    <!-- MAIN SECTION -->
-    <tr>
-
-        <!-- PROJECTS -->
-        <td valign="top">
-
-            <h2>My Projects</h2>
-
-            <table border="1" width="100%" cellpadding="10">
-
-                <tr>
-                    <td>Personal Portfolio</td>
-                </tr>
-
-                <tr>
-                    <td>Simple Calculator</td>
-                </tr>
-
-                <tr>
-                    <td>Quiz Website</td>
-                </tr>
-
-                <tr>
-                    <td>Digital Clock</td>
-                </tr>
-
-                <tr>
-                    <td>Product Page</td>
-                </tr>
-
-            </table>
-
-        </td>
-
-
-        <!-- EXPERIENCE -->
-        <td valign="top">
-
-            <h2>My Experience</h2>
-
-            <h3>Frontend Practice</h3>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="tagline">WELCOME TO UOK</p>
+            <h1>University of Karachi</h1>
+            <h3>Knowledge, Research and Excellence</h3>
 
             <p>
-                I have created different small
-                projects using HTML.
+                Established in 1951, the University of Karachi
+                is a leading public university in Pakistan.
+                It provides educational opportunities and
+                promotes research in various fields of study.
             </p>
 
-            <a href="#">View My Work</a>
+            <a class="btn" href="about.html">Discover Our University</a>
+        </div>
 
-            <hr>
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=85"
+                alt="University academic building">
+        </div>
+    </section>
 
-            <h3>Learning Projects</h3>
+    <section class="highlights">
+        <div class="section-heading">
+            <p class="tagline">EXPLORE UOK</p>
+            <h2>A Place to Learn and Grow</h2>
+            <p>Discover the opportunities available at our university.</p>
+        </div>
 
+        <div class="card-container">
+            <div class="card">
+                <div class="card-icon">01</div>
+                <h3>Quality Education</h3>
+                <p>
+                    Explore undergraduate and postgraduate
+                    learning opportunities across different
+                    academic disciplines.
+                </p>
+                <a href="academics.html">Explore Academics →</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">02</div>
+                <h3>Research</h3>
+                <p>
+                    Learn about scientific research,
+                    academic institutes and the pursuit
+                    of new knowledge.
+                </p>
+                <a href="academics.html">Learn More →</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">03</div>
+                <h3>Admissions</h3>
+                <p>
+                    Find information about degree
+                    programmes and admission pathways
+                    offered by the university.
+                </p>
+                <a href="admissions.html">View Admissions →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-banner">
+        <div>
+            <p class="tagline">OUR UNIVERSITY</p>
+            <h2>A Legacy of Academic Excellence</h2>
             <p>
-                I am learning web development
-                and practicing different projects.
+                The University of Karachi has a long history
+                of teaching, research and service. Its
+                academic community includes students,
+                teachers and researchers from many fields.
             </p>
+            <a class="btn" href="about.html">Read About Us</a>
+        </div>
 
-            <a href="#">My GitHub</a>
+        <img
+            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=85"
+            alt="Students celebrating their education">
+    </section>
 
-        </td>
-
-
-        <!-- EDUCATION -->
-        <td valign="top">
-
-            <h2>Education</h2>
-
-            <p>
-                I am a Computer Science student
-                and interested in web development.
-            </p>
-
-            <p>Subjects I have studied:</p>
-
-            <ul>
-                <li>Programming Fundamentals</li>
-                <li>Object Oriented Programming</li>
-                <li>Data Structures</li>
-                <li>Database Systems</li>
-                <li>Web Engineering</li>
-                <li>Computer Networks</li>
-                <li>Software Engineering</li>
-            </ul>
-
-        </td>
-
-    </tr>
-
-
-    <!-- REVIEWS -->
-    <tr>
-        <td colspan="3">
-
-            <h2>Teacher Reviews</h2>
-
-            <table width="100%" cellspacing="10">
-
-                <tr>
-
-                    <td>
-                        <fieldset>
-                            <p>
-                                A hardworking student who
-                                completes his assignments on time.
-                            </p>
-
-                            <p>
-                                Teacher 1<br>
-                                Lecturer
-                            </p>
-                        </fieldset>
-                    </td>
-
-                    <td>
-                        <fieldset>
-                            <p>
-                                A good student with interest
-                                in computer programming.
-                            </p>
-
-                            <p>
-                                Teacher 2<br>
-                                Lecturer
-                            </p>
-                        </fieldset>
-                    </td>
-
-                    <td>
-                        <fieldset>
-                            <p>
-                                Shows good effort while
-                                learning new concepts.
-                            </p>
-
-                            <p>
-                                Teacher 3<br>
-                                Lecturer
-                            </p>
-                        </fieldset>
-                    </td>
-
-                </tr>
-
-            </table>
-
-        </td>
-    </tr>
-
-
-    <!-- FOOTER -->
-    <tr>
-        <td colspan="3" align="center" height="100">
-
-            <p>Copyright 2026 - My Portfolio</p>
-
-        </td>
-    </tr>
-
-</table>
+    <footer>
+        <h3>University of Karachi</h3>
+        <p>University Road, Karachi-75270, Pakistan</p>
+        <p>Email: registrar@uok.edu.pk</p>
+        <p class="copyright">
+            Student Project | Designed using HTML and CSS
+        </p>
+    </footer>
 
 </body>
 </html>
