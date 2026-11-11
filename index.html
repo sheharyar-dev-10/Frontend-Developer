@@ -1,123 +1,149 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Karachi | Home</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | University of Karachi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
 
-    <header class="header">
-        <div class="logo">
-            <h2>UOK</h2>
-            <p>University of Karachi</p>
-        </div>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="index.html">University of Karachi</a>
 
-        <nav>
-            <a class="active" href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="academics.html">Academics</a>
-            <a href="admissions.html">Admissions</a>
-            <a href="research.html">Research</a>
-            <a href="contact.html">Contact</a>
-            
-        </nav>
-    </header>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
 
-    <section class="hero">
-        <div class="hero-content">
-            <p class="tagline">WELCOME TO UOK</p>
-            <h1>University of Karachi</h1>
-            <h3>Knowledge, Research and Excellence</h3>
+    <nav>
+      <ul class="nav" id="nav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="faculties.html">Faculties</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="campus.html">Campus Life</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <p>
-                Established in 1951, the University of Karachi
-                is a leading public university in Pakistan.
-                It provides educational opportunities and
-                promotes research in various fields of study.
-            </p>
+  <!-- ========== HERO (title + background image) ========== -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>University of Karachi</h1>
+      <p>Knowledge, research and service to Pakistan since 1951.</p>
+    </div>
+  </section>
 
-            <a class="btn" href="about.html">Discover Our University</a>
-        </div>
+  <main>
 
-        <div class="hero-image">
-            <img
-                src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=85"
-                alt="University academic building">
-        </div>
+    <!-- ========== STATS ========== -->
+    <section class="section stats">
+      <div class="stat">
+        <span class="num" data-count="1951">0</span>
+        <span>Year established</span>
+      </div>
+      <div class="stat">
+        <span class="num" data-count="50" data-suffix="+">0</span>
+        <span>Departments and institutes</span>
+      </div>
+      <div class="stat">
+        <span class="num" data-count="8">0</span>
+        <span>Faculties</span>
+      </div>
+      <div class="stat">
+        <span class="num" data-count="25000" data-suffix="+">0</span>
+        <span>Students</span>
+      </div>
     </section>
 
-    <section class="highlights">
-        <div class="section-heading">
-            <p class="tagline">EXPLORE UOK</p>
-            <h2>A Place to Learn and Grow</h2>
-            <p>Discover the opportunities available at our university.</p>
-        </div>
-
-        <div class="card-container">
-            <div class="card">
-                <div class="card-icon">01</div>
-                <h3>Quality Education</h3>
-                <p>
-                    Explore undergraduate and postgraduate
-                    learning opportunities across different
-                    academic disciplines.
-                </p>
-                <a href="academics.html">Explore Academics →</a>
-            </div>
-
-            <div class="card">
-                <div class="card-icon">02</div>
-                <h3>Research</h3>
-                <p>
-                    Learn about scientific research,
-                    academic institutes and the pursuit
-                    of new knowledge.
-                </p>
-                <a href="academics.html">Learn More →</a>
-            </div>
-
-            <div class="card">
-                <div class="card-icon">03</div>
-                <h3>Admissions</h3>
-                <p>
-                    Find information about degree
-                    programmes and admission pathways
-                    offered by the university.
-                </p>
-                <a href="admissions.html">View Admissions →</a>
-            </div>
-        </div>
+    <!-- ========== WELCOME ========== -->
+    <section class="section">
+      <h2>Welcome</h2>
+      <p class="lead">
+        The University of Karachi is one of the largest public universities in Pakistan.
+        Its campus in Karachi brings together students from every province for
+        undergraduate, master's and doctoral study.
+      </p>
+      <p>
+        <a class="btn" href="admissions.html">See admissions</a>
+        <a class="btn ghost" href="about.html">About the university</a>
+      </p>
     </section>
 
-    <section class="about-banner">
-        <div>
-            <p class="tagline">OUR UNIVERSITY</p>
-            <h2>A Legacy of Academic Excellence</h2>
-            <p>
-                The University of Karachi has a long history
-                of teaching, research and service. Its
-                academic community includes students,
-                teachers and researchers from many fields.
-            </p>
-            <a class="btn" href="about.html">Read About Us</a>
-        </div>
-
-        <img
-            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=85"
-            alt="Students celebrating their education">
+    <!-- ========== EXPLORE ========== -->
+    <section class="section alt">
+      <h2>Explore</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Admissions</h3>
+          <p>Programs, eligibility and how to apply.</p>
+        </article>
+        <article class="card">
+          <h3>Faculties</h3>
+          <p>Arts, Science, Pharmacy, Law, Management and more.</p>
+        </article>
+        <article class="card">
+          <h3>Research</h3>
+          <p>Institutes, journals and research centres.</p>
+        </article>
+        <article class="card">
+          <h3>Campus Life</h3>
+          <p>Library, societies, sports and hostels.</p>
+        </article>
+      </div>
     </section>
 
-    <footer>
+    <!-- ========== NOTICES ========== -->
+    <section class="section">
+      <h2>Latest notices</h2>
+      <ul class="notices">
+        <li><strong>Admissions</strong> Check the admission schedule for the coming session.</li>
+        <li><strong>Examinations</strong> Date sheets are published by the Controller of Examinations.</li>
+        <li><strong>Events</strong> Departments announce seminars and conferences through the year.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER (background image in CSS) ========== -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
         <h3>University of Karachi</h3>
-        <p>University Road, Karachi-75270, Pakistan</p>
-        <p>Email: registrar@uok.edu.pk</p>
-        <p class="copyright">
-            Student Project | Designed using HTML and CSS
-        </p>
-    </footer>
+        <p>University Road, Karachi 75270, Sindh, Pakistan.</p>
+      </div>
 
+      <div>
+        <h3>Pages</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="faculties.html">Faculties</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="campus.html">Campus Life</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Note</h3>
+        <p>This is a student project website made for learning purposes. It is not the official university site.</p>
+      </div>
+    </div>
+
+    <p class="copy">&copy; 2026 Student project. All rights belong to their respective owners.</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">Top</button>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
