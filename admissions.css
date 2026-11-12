@@ -323,8 +323,8 @@ h3,
 
 .page-hero {
   background-image:
-    linear-gradient(to top, rgba(16, 36, 62, 0.88), rgba(16, 36, 62, 0.35)),
-    url("images/hero-admissions.jpg");
+    linear-gradient(to top, rgba(63, 63, 36, 0.88), rgba(253, 253, 253, 0.35)),
+    url("teacherdeaprtmentpic4.jpeg");
 }
 
 .faq-q {
@@ -355,4 +355,18 @@ h3,
 }
 .faq-a.open {
   display: block;
+}
+
+/* Apply button: center */
+.pill-btn {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(153, 37, 37);
+  color: white;
+  padding: 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
 }

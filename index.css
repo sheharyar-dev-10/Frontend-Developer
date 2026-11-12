@@ -324,14 +324,14 @@ h3,
 .hero {
   background-image:
     linear-gradient(to top, rgba(16, 36, 62, 0.88), rgba(16, 36, 62, 0.35)),
-    url("images/hero-home.jpg");
+    url("mainpic1.webp");
 }
 
 /* Title (hero) ki background image */
 .hero {
   background-image:
-    linear-gradient(to top, rgba(16, 36, 62, 0.88), rgba(16, 36, 62, 0.35)),
-    url("mainpic1.webp");
+    linear-gradient(to top, rgba(63, 63, 36, 0.88), rgba(253, 253, 253, 0.35)),
+    url("mainpic1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
